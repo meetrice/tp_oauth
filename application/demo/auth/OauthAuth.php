@@ -107,7 +107,12 @@ class OauthAuth extends OAuth
 					  'name' => 'test_client']
 
 				];
-				 return $userList[$client_id];
+                if (isset($userList[$client_id])) {
+                   return $userList[$client_id];
+                }else{
+                    return false;
+                }
+				
 
 		}else{
 		return false;
