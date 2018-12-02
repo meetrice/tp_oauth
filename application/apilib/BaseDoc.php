@@ -10,7 +10,7 @@ use think\Url;
 class BaseDoc extends Common
 {
     const METHOD_POSTFIX = 'Response';
-    public static $titleDoc = 'API文档';
+    public static $titleDoc = '西格接口文档';
     /**
      * 返回字段
      * @var array
@@ -66,13 +66,15 @@ class BaseDoc extends Common
         $id = $request->param('id');
         $apiOne = self::getApiDocOne($id);
         $module = $apiOne['module'];
+        // $controller = $apiOne['controller'];
         $controller = $apiOne['controller'];
 
-        $className = 'app\\' . $module . '\\' . 'controller\\' . $controller;
+        // $className = 'app\\' . $module . '\\' . 'controller\\' . $controller;
+        $className = 'app\\' . $module . '\\' . 'handler\\' . $controller;
 
         //获取接口类注释
         $classDoc = self::getClassDoc($className);
-		
+		 
         //没有接口类  判断是否有 Markdown文档
         if ($classDoc == false ) {
            //输出 Markdown文档
@@ -87,7 +89,7 @@ class BaseDoc extends Common
 
         //获取请求列表文档
         $methodDoc = self::getMethodListDoc($className);
-          // self::debuge($methodDoc);die;
+       
         //模板位置
         $apiInfoHtmlPath = APP_PATH . 'apilib' . DS . 'view' . DS . 'apiInfo.tpl';
         $apiInfoHtmlPath = (Config::get('apiInfoHtmlPath')) ? Config::get('apiInfoHtmlPath') : $apiInfoHtmlPath;
@@ -142,7 +144,8 @@ class BaseDoc extends Common
         $apiOne = self::getApiDocOne($id);
         $module = $apiOne['module'];
         $controller = $apiOne['controller'];
-        $className = 'app\\' . $module . '\\' . 'controller\\' . $controller;
+        // $className = 'app\\' . $module . '\\' . 'controller\\' . $controller;
+        $className = 'app\\' . $module . '\\' . 'handler\\' . $controller;
 
         $method = $request->param('method', 'get');
         $dataType = $request->param('dataType', 'data');
@@ -173,6 +176,7 @@ class BaseDoc extends Common
      */
     public static function getClassDoc($className)
     {
+
         try {
             $reflection = new \ReflectionClass($className);
         } catch (\ReflectionException  $e) {
@@ -203,7 +207,7 @@ class BaseDoc extends Common
             $methodDoc[$method] = self::getDoc($docComment);
             $methodDoc[$method]['rules'] = array_merge($rules['all'], $rules[$method]);
         }
-      
+      // debuge($methodDoc);die;
         return $methodDoc;
     }
 
@@ -265,7 +269,12 @@ class BaseDoc extends Common
                 $data['version'] = trim(substr($comment, $pos + 8));
                 continue;
             }
-
+            //接口example
+            $pos = stripos($comment, '@example');
+            if ($pos !== false) {
+                $data['example'] = trim(substr($comment, $pos + 8));
+                continue;
+            }
             //返回字段说明
             //@return注释
             $pos = stripos($comment, '@return');
@@ -299,6 +308,7 @@ class BaseDoc extends Common
         $data['readme'] = (isset($data['readme'])) ? $data['readme'] : '';
         $data['return'] = (isset($data['return'])) ? $data['return'] : [];
         $data['url'] = (isset($data['url'])) ? $data['url'] : [];
+        $data['example'] = (isset($data['example'])) ? $data['example'] : [];
         $data['version'] = (isset($data['version'])) ? $data['version'] : [];
 
 			
@@ -323,7 +333,7 @@ class BaseDoc extends Common
             //需要验证是否有子菜单
             if (isset($v['children']) && is_array($v['children'])) {
 
-                $html .= '<ul class="nav nav-second-level">';
+                $html .= '<ul class="nav nav-second-level collapse in">';
                 $html .= self::buildMenuHtml($v['children']);
                 //验证是否有子订单
                 $html .= '</ul>';

@@ -16,6 +16,28 @@
     <link href="__STATIC__/hadmin/css/font-awesome.css?v=4.4.0" rel="stylesheet">
     <link href="__STATIC__/hadmin/css/plugins/bootstrap-table/bootstrap-table.min.css" rel="stylesheet">
     <link href="__STATIC__/hadmin/css/animate.css" rel="stylesheet">
+    <style type="text/css">
+.json-editor-blackbord{padding:5px 20px;}
+a.json-toggle.collapsed:before{    left: -1.3em;}
+        #json-input {
+            display: block;
+            width: 100%;
+            height: 200px;
+        }
+        #translate {
+            display: block;
+            height: 28px;
+            margin: 20px 0;
+            border-radius: 3px;
+            border: 2px solid;
+            cursor: pointer;
+        }
+        #json-display {
+            border: 1px solid #000;
+            margin: 0;
+            padding: 10px 20px;
+        }
+    </style>
     <!--markdown-->
     <link rel="stylesheet" type="text/css" href="__STATIC__/hadmin/css/plugins/markdown/bootstrap-markdown.min.css"/>
     <!--markdown-->
@@ -33,156 +55,77 @@
 <body class="gray-bg">
 <div class="wrapper wrapper-content animated fadeInRight">
 
-    <div class="row">
+    <div class="row white-bg">
 
         <div class="ibox-content  ">
             <div class="text-center ">
                 <h2 class="">{$classDoc.title}</h2>
+                <h4>  版本：{$classDoc.version}</h4>
             </div>
         </div>
-        <div class="hr-line-dashed"></div>
-        <div class="col-xs-9">
-            <div class="panel-group" id="accordion">
-                <div class="panel panel-default">
-
-                    <div id="collapseOne" class="panel-collapse collapse in">
-                        <div class="panel-body">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <dl class="dl-horizontal">
-                                        <dt>请求地址：</dt>
-                                        <dd><a target="_blank" href="__ROOT__{$classDoc.url}">__ROOT__{$classDoc.url}</a> </dd>
-                                    </dl>
-                                </div>
-                                <div class="col-sm-6" id="cluster_info">
-                                    <dl class="dl-horizontal">
-                                        <dt>版本：</dt>
-                                        <dd>{$classDoc.version}</dd>
-                                    </dl>
+      
+        <div class="col-xs-12">
+            <div class="well" >
+                {$classDoc.desc}
+            </div>
+            {notempty  name="classDoc.readme"}
+                <div class="row" >
+                    <div class="col-lg-12">
+                        <div class="ibox float-e-margins" style="border:1px #ccc solid;">
+                            <div class="ibox-title" data-toggle="collapse" data-target="#markdown-class">
+                                <h5>接口说明文档</h5>
+                                <div class="ibox-tools">
+                                    <a class="collapse-link">
+                                      <i class="fa fa-chevron-up"></i>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="well">
-                                {$classDoc.desc}
+                            <div class="ibox-content markdown  collapse in" id="markdown-class">
+                            {$classDoc.readme}
                             </div>
                         </div>
                     </div>
                 </div>
+            {/notempty}
 
-            </div>
-        </div>
-
-        <div class="col-xs-93">
-            <div class="ibox float-e-margins">
-                <div class="ibox-content">
-                    <div class="file-manager">
-                        <h5 class="label label-primary">请求</h5>
-                        <div class="hr-line-dashed"></div>
-                        <!--请求列表-->
-                        <ul class="folder-list" style="padding: 0">
+               <div class="row"  style="margin-top: 30px;margin-bottom: 30px;">
+                    <div class="col-lg-12">
+                        <div class="ibox float-e-margins"  style="border:1px #ccc solid;">
+                            <div class="ibox-title" data-toggle="collapse" data-target="#dir-class">
+                                <h5>接口目录</h5>
+                                <div class="ibox-tools">
+                                    <a class="collapse-link">
+                                      <i class="fa fa-chevron-up"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="ibox-content  collapse in " id="dir-class">
+                                                   <ul class="folder-list" style="padding: 0">
+                                                    <?php $i=1; ?>
                             {foreach name="methodDoc" item="vo" key="k" }
-                                {switch name="k"}
-                                {case value="get"}
-                                    <li><a href="#get"><span class="label label-success">GET</span> {$vo.title}</a></li>
-                                {/case}
-                                {case value="post"}
-                                    <li><a href="#post"><span class="label label-warning">POST</span> {$vo.title}</a>
-                                    </li>
-                                {/case}
-                                {case value="put"}
-                                    <li><a href="#put"> <span class="label label-info">PUT</span> {$vo.title}</a></li>
-                                {/case}
-                                {case value="delete"}
-                                    <li><a href="#delete"><span class="label  label-danger">DELETE</span> {$vo.title}
-                                        </a>
-                                    </li>
-                                {/case}
-                                {case value="patch"}
-                                    <li><a href="#patch"><span class="label label-primary ">PATCH</span> {$vo.title}</a>
-                                    </li>
-                                {/case}
-                                {case value="head"}
-                                    <li><a href="#head"><span class="label label-inverse">HEAD</span> {$vo.title}</a>
-                                    </li>
-                                {/case}
-                                {case value="options"}
-                                    <li><a href="#options"><span class="label ">OPTIONS</span> {$vo.title}</a></li>
-                                {/case}
-
-                                {default /}
-                                {/switch}
+                                <li><a href="#{$k}"><?php echo $i; $i++; ?> . {$vo.title}</a></li>
                             {/foreach}
 
                         </ul>
-                        <!--请求列表-->
-                        <div class="clearfix"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {notempty  name="classDoc.readme"}
-            <div class="row" >
-            <div class="col-lg-12">
-                <div class="ibox float-e-margins">
-                    <div class="ibox-title" data-toggle="collapse" data-target="#markdown-class">
-                        <h5>接口说明文档</h5>
-                        <div class="ibox-tools">
-                            <a class="collapse-link">
-                              <i class="fa fa-chevron-up"></i>
-                            </a>
+                            </div>
                         </div>
                     </div>
-                    <div class="ibox-content markdown " id="markdown-class">
-                    {$classDoc.readme}
-                    </div>
                 </div>
-            </div>
         </div>
-        {/notempty}
+
+
     </div>
     <!--methodDoc-->
+    <div  class="row" style="padding: 30px;">
+        <?php $j=1; ?>
     {foreach name="methodDoc" item="vo" key="k" }
-        <li class="line dk"></li>
-        <div id="{$k}" class="row">
+      
+        <div id="{$k}" class="row" style="border: 1px  #ccc solid;margin-bottom: 20px;" >
             <div class="ibox float-e-margins">
-                <div class="ibox-title" data-toggle="collapse" data-target="#content-{$k}">
-
-                    {switch name="k"}
-                    {case value="get"}
-                        <span class="label label-success">GET</span>
-                        <h5><strong>{$vo.title}  </strong></h5>
-                    {/case}
-                    {case value="post"}
-                        <span class="label label-warning">POST</span>
-                         <h5><strong>{$vo.title}  </strong></h5>
-                    {/case}
-                    {case value="put"}
-                        <span class="label label-info">PUT</span>
-                    {$vo.title}
-                        <h5><strong>{$vo.title}  </strong></h5>
-                    {/case}
-                    {case value="delete"}
-                        <span class="label  label-danger">DELETE</span>
-                    {$vo.title}
-                        <h5><strong>{$vo.title}  </strong></h5>
-                    {/case}
-                    {case value="patch"}
-                        <span class="label label-primary ">PATCH</span>
-                    {$vo.title}
-                        <h5><strong>{$vo.title}  </strong></h5>
-                    {/case}
-                    {case value="head"}
-                        <span class="label label-inverse">HEAD</span>
-                    {$vo.title}
-                        <h5><strong>{$vo.title}  </strong></h5>
-                    {/case}
-                    {case value="options"}
-                        <span class="label ">OPTIONS</span>
-                    {$vo.title}
-                        <h5><strong>{$vo.title}  </strong></h5>
-                    {/case}
-
-                    {default /}
-                    {/switch}
+                <div class="ibox-title" data-toggle="collapse" data-target="#content-{$k}" aria-expanded="true">
+                       
+                        <h5><strong><?php echo $j; $j++; ?> . {$vo.title}</strong></h5><span></span>
+                   
 
 
                     <div class="ibox-tools">
@@ -192,17 +135,15 @@
                     </div>
                 </div>
             </div>
-
-
-            <div id="content-{$k}" class="ibox float-e-margins">
-                <!--title,desc-->
-                {notempty  name="vo.desc"}
+            <div id="content-{$k}" class="ibox collapse in float-e-margins">
                 <div class="ibox-content">
+                    <div style="padding-top: 10px;padding-bottom: 10px;">接口说明: {$vo.desc}</div>
+                    <div style="padding-top: 10px;padding-bottom: 10px;">接口地址:</div> 
                     <div class="well">
-                        {$vo.desc}
+                        <span class="label label-success">GET</span> {$classDoc.url}/{$vo.url}
                     </div>
                 </div>
-                {/notempty}
+               
                 <!--title,desc-->
                 <!--readme-->
                 {notempty  name="vo.readme"}
@@ -217,7 +158,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <div class="ibox-content markdown " id="markdown-{$k}">
+                            <div class="ibox-content markdown collapse in" id="markdown-{$k}">
                                 {$vo.readme}
                             </div>
                         </div>
@@ -231,7 +172,7 @@
                 <!--request-->
                 {notempty  name="vo.rules"}
                 <div class="ibox-title" data-toggle="collapse" data-target="#data-{$k}">
-                    <h5>请求字段</h5>
+                    <h5>请求参数</h5>
                     <div class="ibox-tools">
                         <a data-toggle="collapse" data-target="#sss" class="collapse-link">
                             <i data-toggle="collapse" class="fa fa-chevron-up"></i>
@@ -269,14 +210,14 @@
                 <!--response-->
                 {notempty  name="vo.return"}
                 <div class="ibox-title" data-toggle="collapse" data-target="#return-{$k}">
-                    <h5>返回字段</h5>
+                    <h5>返回参数</h5>
                     <div class="ibox-tools">
                         <a class="collapse-link">
                             <i data-toggle="collapse" class="fa fa-chevron-up success"></i>
                         </a>
                     </div>
                 </div>
-                <div id="return-{$k}" class="ibox-content">
+                <div id="return-{$k}" class="ibox-content collapse in">
                     <div class="row row-lg">
                         <div class="col-sm-12">
                             <!-- Example Toolbar -->
@@ -300,6 +241,31 @@
                     </div>
                 </div>
                 {/notempty}
+                {notempty  name="vo.example"}
+                  <div class="ibox-title" data-toggle="collapse" data-target="#example-{$k}">
+                        <h5>返回示例</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i data-toggle="collapse" class="fa fa-chevron-up success"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="example-{$k}" class="ibox-content collapse in">
+                        <div class="row row-lg">
+                            <div class="col-sm-12">
+                                <!-- Example Toolbar -->
+                                <div class="example-wrap">
+                                    <div class="example">
+                                        <pre id="json-{$k}"></pre>
+                                       
+                                    </div>
+                                </div>
+                                <!-- End Example Toolbar -->
+                            </div>
+
+                        </div>
+                    </div>
+                {/notempty}
                 <!--response-->
             </div>
 
@@ -308,7 +274,7 @@
     {/foreach}
     <!--methodDoc-->
 
-
+</div>
 </div>
 
 
@@ -327,6 +293,7 @@
 <script type="text/javascript" src="__STATIC__/hadmin/js/plugins/markdown/to-markdown.js"></script>
 <script type="text/javascript" src="__STATIC__/hadmin/js/plugins/markdown/bootstrap-markdown.js"></script>
 <script type="text/javascript" src="__STATIC__/hadmin/js/plugins/markdown/bootstrap-markdown.zh.js"></script>
+<script type="text/javascript" src="__STATIC__/hadmin/js/jquery.json-editor.min.js"></script>
 
 <script>
     //获取class md
@@ -334,6 +301,8 @@
     $.get("__ROOT__{$classDoc.readme}", function (data) {
         $('#markdown-class').html(markdown.toHTML(data))
     });
+
+
 
 </script>
 {foreach name="methodDoc" item="vo" key="k" }
@@ -374,6 +343,13 @@
                     }
                 });
             })();
+
+            {notempty  name="vo.example"}
+        
+var {$k}editor = new JsonEditor('#json-{$k}', {$vo.example});
+        
+         {/notempty}
+ 
 
 
         })(document, window, jQuery);

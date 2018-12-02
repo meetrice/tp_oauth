@@ -1,0 +1,30 @@
+.jsonviz { font-family:monospace; }
+.jsonviz ul{ display:block; }
+.jsonviz li li { padding-left:30px; border-left:1px dotted #999; }
+.jsonviz .value>li { padding-left:0; border-left:none; }
+
+.jsonviz .object{color:#003;}
+.jsonviz .array{color:#030;}
+.jsonviz .null{color:#069;}
+.jsonviz .boolean{color:#066;}
+.jsonviz .string{color:#900;}
+.jsonviz .number{color:#009;}
+.jsonviz .date{color:#070;}
+
+.jsonviz .string:before,
+.jsonviz .string:after{content:'"';}
+.jsonviz .object:before{content:'{';}
+.jsonviz .object:after{content:'}';}
+.jsonviz .array:before{content:'[';}
+.jsonviz .array:after{content:']';}
+
+.jsonviz .ellipsis{ display:none; cursor:pointer; }
+.jsonviz .closed .ellipsis{ display:inline; }
+.jsonviz .collapse{ cursor:pointer; color:#999; font-weight:bold; margin-left:-1.2em; margin-right:.6em;}
+.jsonviz .collapse:before{ content:"-"; }
+.jsonviz .closed .collapse:before{ content:"+"; }
+.jsonviz .empty .collapse,
+.jsonviz .empty .ellipsis{ display:none; }
+
+.jsonviz .array li:after{content:",";}
+.jsonviz .array li:last-child:after{content:"";}

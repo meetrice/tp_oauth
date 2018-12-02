@@ -1,0 +1,1265 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"win",
+				"winsize"
+			],
+			[
+				"pl",
+				"plugs"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"fsi",
+				"font-size\tproperty"
+			],
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"cre",
+				"create_date"
+			],
+			[
+				"purchase_s",
+				"purchase_supplier"
+			],
+			[
+				"ar",
+				"artTemplate"
+			],
+			[
+				"plu",
+				"plugs/"
+			],
+			[
+				"bor",
+				"border-bottom\tproperty"
+			],
+			[
+				"border-co",
+				"border-color\tproperty"
+			],
+			[
+				"borr",
+				"border-radius\tproperty"
+			],
+			[
+				"ven",
+				"vendor"
+			],
+			[
+				"debu",
+				"debuge〔function〕"
+			],
+			[
+				"data-",
+				"data-source"
+			],
+			[
+				"deb",
+				"debuge〔function〕"
+			],
+			[
+				"cty",
+				"$ctypemax〔variable〕"
+			],
+			[
+				"add",
+				"addClass〔function〕"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"entri",
+				"entriesname"
+			],
+			[
+				"mart",
+				"margin-bottom\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"ne",
+				"nexttable"
+			],
+			[
+				"cl",
+				"closest"
+			],
+			[
+				"pat",
+				"parents"
+			],
+			[
+				"url",
+				"urldecode"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/demo/auth/OauthAuth.php",
+			"settings":
+			{
+				"buffer_size": 4942,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "git config --global user.email \"meetrice@qq.com\"\ngit config --global user.name \"meetrice\"\n\nssh-keygen -t rsa -C\"meetrice@qq.com\"",
+			"settings":
+			{
+				"buffer_size": 128,
+				"line_ending": "Windows",
+				"name": "git config --global user.email \"meetrice@qq.com\""
+			}
+		},
+		{
+			"file": "/D/pro/clear/vue/package.json",
+			"settings":
+			{
+				"buffer_size": 5307,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "application/demo/controller/Base.php",
+			"settings":
+			{
+				"buffer_size": 158,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/demo/controller/User.php",
+			"settings":
+			{
+				"buffer_size": 3442,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"snippets",
+				"BetterSnippetManager: Edit Snippets"
+			],
+			[
+				"snippet edit",
+				"BetterSnippetManager: Edit Snippets"
+			],
+			[
+				"snippet",
+				"BetterSnippetManager: Edit Snippets"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"format",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"book",
+				"SublimeBookmarks: Goto Next Bookmark"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"bookmark ",
+				"Bookmarks: Clear All"
+			],
+			[
+				"bookmark",
+				"Bookmarks: Toggle"
+			],
+			[
+				"goto",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"add book",
+				"SublimeBookmarks: Add Bookmark"
+			],
+			[
+				"form",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"snippet:cons",
+				"Snippet: cons"
+			],
+			[
+				"snippet:",
+				"BetterSnippetManager: Edit Snippets"
+			],
+			[
+				"edit snip",
+				"BetterSnippetManager: Edit Snippets"
+			],
+			[
+				"snippet:hah",
+				"Snippet: haha"
+			],
+			[
+				"snippe",
+				"BetterSnippetManager: Edit Snippets"
+			],
+			[
+				"snippet:test",
+				"Snippet: test"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"snip",
+				"Snippet: test"
+			],
+			[
+				"snipp",
+				"Snippet: test"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"selectcl",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"col",
+				"Color Picker"
+			],
+			[
+				"ma",
+				"Material Theme: Extras"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"gitcom",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"auto",
+				"Toggle AutoSave: current file only"
+			],
+			[
+				"ui",
+				"UI: Select Color Scheme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 246.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/pro/tp_oauth",
+		"/D/pro/tp_oauth/application",
+		"/D/pro/tp_oauth/application/demo",
+		"/D/pro/tp_oauth/application/demo/auth",
+		"/D/pro/tp_oauth/application/demo/controller"
+	],
+	"file_history":
+	[
+		"/D/pro/b2ke_com/application/demo/controller/User.php",
+		"/D/pro/b2ke_com/application/admin/controller/Abcd.php",
+		"/D/pro/b2ke_com/application/admin/controller/Codegen.php",
+		"/D/pro/b2ke_com/extend/service/WorkflowService.php",
+		"/D/pro/b2ke_com/extend/controller/BasicAdmin.php",
+		"/D/pro/b2ke_com/vendor/ircmaxell/random-lib/lib/RandomLib/Factory.php",
+		"/D/pro/b2ke_com/vendor/composer/autoload_real.php",
+		"/D/pro/b2ke_com/vendor/liushoukun/dawn-api/src/auth/OAuth.php",
+		"/D/pro/b2ke_com/application/demo/controller/Base.php",
+		"/D/pro/b2ke_com/application/admin/controller/Client.php",
+		"/D/pro/b2ke_com/vendor/liushoukun/dawn-api/src/facade/ApiController.php",
+		"/D/pro/b2ke_com/sftp-config.json",
+		"/D/pro/oauth/thinkphp/library/think/Response.php",
+		"/D/pro/b2ke_com/application/admin/view/metronic.chart.html",
+		"/D/pro/b2ke_com/static/plugs/metronic/pages/scripts/dashboard.dev.js",
+		"/D/pro/b2ke_com/application/erp/controller/Importpurchase.php",
+		"/D/pro/b2ke_com/application/admin/view/amcharts.index.html",
+		"/D/pro/b2ke_com/application/admin/view/reports.form.html",
+		"/D/pro/b2ke_com/static/admin/app.js",
+		"/D/pro/b2ke_com/static/plugs/metronic/pages/scripts/dashboard.js",
+		"/D/pro/b2ke_com/application/admin/controller/Charts.php",
+		"/D/pro/b2ke_com/application/common.php",
+		"/D/pro/b2ke_com/application/erp/view/importpurchase.index.html",
+		"/D/pro/b2ke_com/dataio/vendor/moment/locale/ar-ma.js.dump",
+		"/C/Users/Administrator/Desktop/报价单.csv",
+		"/D/pro/b2ke_com/application/admin/controller/Chartdataprovider.php",
+		"/D/pro/b2ke_com/application/admin/controller/Amcharts.php",
+		"/D/pro/b2ke_com/dataio/vendor/moment/locale/de-at.js.dump",
+		"/D/pro/b2ke_com/application/h5/view/venues.h5.html",
+		"/D/pro/b2ke_com/application/h5/view/club.h5detail.html",
+		"/D/pro/b2ke_com/application/h5/view/club.h5form.html",
+		"/D/pro/b2ke_com/application/h5/view/venues.h5detail.html",
+		"/D/pro/b2ke_com/application/h5/view/activity.h5detail.html",
+		"/D/pro/h5upload/android/android/MainActivity.java",
+		"/D/pro/b2ke_com/application/admin/view/codegen.createtable.html",
+		"/D/pro/h5upload/android/android/MyWebChromeClient.java",
+		"/D/pro/b2ke_com/application/h5/view/club.form.html",
+		"/D/pro/b2ke_com/application/h5/view/equipment.h5detail.html",
+		"/D/pro/b2ke_com/static/plugs/weui/css/example.css",
+		"/D/pro/b2ke_com/application/admin/view/codegen.tableconfig.html",
+		"/D/pro/b2ke_com/application/h5/view/services.h5form.html",
+		"/D/pro/b2ke_com/application/h5/view/equipment.h5.html",
+		"/D/pro/b2ke_com/application/h5/view/club.h5.html",
+		"/D/pro/b2ke_com/application/h5/view/activity.h5.html",
+		"/D/pro/b2ke_com/application/h5/controller/Equipment.php",
+		"/D/pro/b2ke_com/static/plugs/mui/js/h5form.js",
+		"/D/pro/b2ke_com/application/h5/controller/Services.php",
+		"/D/pro/b2ke_com/application/admin/controller/Dict.php",
+		"/D/pro/b2ke_com/static/plugs/mui/js/muiutil.js",
+		"/D/pro/b2ke_com/application/erp/view/purchasematerial.form.html",
+		"/D/pro/b2ke_com/application/admin/controller/Codeeditor.php",
+		"/D/pro/b2ke_com/application/admin/view/codeeditor.editor.html",
+		"/D/pro/b2ke_com/static/plugs/filesave/FileSaver.min.js",
+		"/D/pro/b2ke_com/static/jscommon.js",
+		"/D/pro/b2ke_com/static/plugs/codemirror/test/scroll_test.js.dump",
+		"/D/pro/b2ke_com/application/admin/view/config.index.html",
+		"/D/pro/b2ke_com/application/erp/view/customer.index.html",
+		"/D/pro/b2ke_com/application/erp/view/customer.profile.html",
+		"/D/pro/b2ke_com/thinkphp/library/think/template/taglib/Html.php",
+		"/D/pro/b2ke_com/application/h5/view/testh5.form.html",
+		"/D/pro/b2ke_com/application/admin/view/abcd.form.html",
+		"/D/pro/b2ke_com/static/admin/plugs.js",
+		"/D/pro/b2ke_com/sftp-config-alt2.json",
+		"/D/pro/b2ke_com/dataio/vendor/bootstrap-table/locale/bootstrap-table-ar-SA.js.dump",
+		"/D/pro/b2ke_com/application/erp/view/quotation.form.html",
+		"/D/pro/b2ke_com/application/erp/controller/Customer.php",
+		"/D/pro/b2ke_com/application/extra/view/metronic.main.html",
+		"/D/pro/metronic_v4.7.5/theme/admin_1_rounded/page_user_profile_demo.html",
+		"/D/pro/b2ke_com/application/erp/view/customer.form.html",
+		"/D/pro/metronic_v4.7.5/theme/admin_1_rounded/page_user_profile_1.html",
+		"/D/pro/b2ke_com/application/admin/view/customer.form.html",
+		"/D/pro/b2ke_com/application/admin/view/customer.index.html",
+		"/D/pro/b2ke_com/application/index/controller/Index.php",
+		"/D/pro/b2ke_com/application/admin/view/abcd.public.index.html",
+		"/D/pro/b2ke_com/application/extra/view/admin.main.top.html",
+		"/D/pro/b2ke_com/dataio/import.php",
+		"/D/pro/b2ke_com/application/erp/view/car.index.html",
+		"/D/pro/b2ke_com/application/admin/view/abcd.public.view.html",
+		"/D/下载/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack 2.0.2/shop-product-1.html",
+		"/D/pro/b2ke_com/application/admin/view/abcd.index.html",
+		"/D/pro/b2ke_com/application/admin/view/abcd.frontdetail.html",
+		"/D/pro/b2ke_com/application/admin/controller/Log.php",
+		"/D/pro/b2ke_com/application/admin/view/abcd.publicindex.html",
+		"/D/pro/b2ke_com/extend/service/StringService.php",
+		"/D/下载/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack 2.0.2/blog-articles-cards.html",
+		"/D/pro/b2ke_com/application/erp/controller/Products.php",
+		"/D/pro/b2ke_com/application/route.php",
+		"/D/下载/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack",
+		"/D/下载/themeforest-19337626-stack-multipurpose-html-with-page-builder/Stack 2.0.2/2.0.2/blog-articles-cards.html",
+		"/D/pro/b2ke_com/application/extra/view/core.code.html",
+		"/D/pro/eqilian/SportDevice/src/test/java/com/device/sportdevice/ExampleUnitTest.java",
+		"/D/pro/TestChat-master/app/src/main/java/chen/testchat/demo/Demo.java",
+		"/D/pro/b2ke_com/application/admin/view/metronic.index - 副本 (2).html",
+		"/D/pro/b2ke_com/application/admin/controller/Metronic.php",
+		"/D/pro/b2ke_com/static/plugs/metronic/global/scripts/app.js",
+		"/D/pro/b2ke_com/static/plugs/fullcalendar/locale/de-at.js.dump",
+		"/D/pro/b2ke_com/b2ke.sublime-project",
+		"/D/pro/b2ke_com/application/admin/view/echartsx.index.html",
+		"/D/pro/b2ke_com/static/plugs/lobipanel/js/lobipanel.js",
+		"/D/pro/b2ke_com/application/admin/view/echarts.index.html",
+		"/D/pro/b2ke_com/static/plugs/echarts-x-0.2.0/population.json",
+		"/D/pro/b2ke_com/application/admin/controller/Echarts.php",
+		"/D/pro/b2ke_com/static/plugs/echarts-x-0.2.0/echarts-x.js",
+		"/D/pro/b2ke_com/application/admin/controller/Echartsx.php",
+		"/D/pro/b2ke_com/static/plugs/echarts/echarts.min.js",
+		"/C/Users/Administrator/Desktop/dashboard.dev.js",
+		"/D/pro/b2ke_com/application/admin/view/metronic.index.html",
+		"/D/pro/b2ke_com/static/plugs/xeui/css/bootstrap-extend.css",
+		"/D/pro/b2ke_com/static/plugs/xeui/css/bootstrap-extend.min.css",
+		"/D/pro/b2ke_com/application/admin/view/index.main.html",
+		"/D/pro/b2ke_com/application/admin/controller/Ai.php",
+		"/D/pro/b2ke_com/static/plugs/remark/site.css",
+		"/D/pro/b2ke_com/static/plugs/echarts/echarts.js",
+		"/D/pro/b2ke_com/static/theme/default/css/console.css",
+		"/D/pro/b2ke_com/extend/service/ExpressService.php",
+		"/D/pro/b2ke_com/application/admin/view/codegen.form.html",
+		"/D/pro/b2ke_com/static/plugs/metronic/global/plugins/fullcalendar/fullcalendar.min.js",
+		"/D/pro/b2ke_com/static/plugs/metronic/global/plugins/fullcalendar/fullcalendar.min.css",
+		"/D/pro/b2ke_com/static/plugs/metronic/global/plugins/flot/jquery-jqplot-module-with-plugins-1.0.8.js",
+		"/D/pro/b2ke_com/static/admin/listen.js",
+		"/D/pro/metronic_v5.0/metronic_v4.7.5/metronic_v4.7.5/theme/admin_1_rounded/index.html",
+		"/D/pro/b2ke_com/static/plugs/metronic/layouts/layout/scripts/demo.js",
+		"/D/pro/b2ke_com/static/plugs/metronic/global/plugins/flot/jquery.flot.min.js",
+		"/D/pro/b2ke_com/static/plugs/metronic/global/plugins/flot/jquery.flot.resize.min.js",
+		"/D/pro/b2ke_com/static/plugs/metronic/global/plugins/counterup/jquery.waypoints.min.js",
+		"/D/pro/b2ke_com/static/plugs/metronic/global/plugins/counterup/jquery.waypoints.js.dump",
+		"/D/pro/b2ke_com/static/plugs/metronic/global/plugins/counterup/jquery.counterup.js",
+		"/D/pro/b2ke_com/static/plugs/metronic/global/plugins/counterup/jquery.waypoints.js"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 140.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/demo/auth/OauthAuth.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								91
+							]
+						],
+						"settings":
+						{
+							"auto_name": "git config --global user.email \"meetrice@qq.com\"",
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/pro/clear/vue/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1207,
+								1207
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/demo/controller/Base.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 158,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/demo/controller/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								247,
+								247
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 41.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 142.0
+	},
+	"pinned_build_system": "Packages/User/py35.sublime-build",
+	"project": "tpoauth.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"OauthAuth",
+				"application\\demo\\auth\\OauthAuth.php"
+			],
+			[
+				"OauthAuth.php",
+				"application\\demo\\auth\\OauthAuth.php"
+			],
+			[
+				"Client.php",
+				"application\\admin\\controller\\Client.php"
+			],
+			[
+				"user.php",
+				"application\\demo\\controller\\User.php"
+			],
+			[
+				"workflow.ph",
+				"extend\\service\\WorkflowService.php"
+			],
+			[
+				"codegen",
+				"application\\admin\\controller\\Codegen.php"
+			],
+			[
+				"Factory",
+				"vendor\\ircmaxell\\random-lib\\lib\\RandomLib\\Factory.php"
+			],
+			[
+				"autoload_real",
+				"vendor\\composer\\autoload_real.php"
+			],
+			[
+				"OAuth.php",
+				"vendor\\liushoukun\\dawn-api\\src\\auth\\OAuth.php"
+			],
+			[
+				"abcd.php",
+				"application\\admin\\controller\\Abcd.php"
+			],
+			[
+				"ApiController",
+				"vendor\\liushoukun\\dawn-api\\src\\facade\\ApiController.php"
+			],
+			[
+				"common.php",
+				"application\\common.php"
+			],
+			[
+				"codegen.php",
+				"application\\admin\\controller\\Codegen.php"
+			],
+			[
+				"reports.form",
+				"application\\admin\\view\\reports.form.html"
+			],
+			[
+				"amcharts.index",
+				"application\\admin\\view\\amcharts.index.html"
+			],
+			[
+				"importpurchase.inde",
+				"application\\erp\\view\\importpurchase.index.html"
+			],
+			[
+				"importpurchase",
+				"application\\erp\\controller\\Importpurchase.php"
+			],
+			[
+				"app.js",
+				"static\\admin\\app.js"
+			],
+			[
+				"abcd.ph",
+				"application\\admin\\controller\\Abcd.php"
+			],
+			[
+				"Charts.php",
+				"application\\admin\\controller\\Charts.php"
+			],
+			[
+				"chartdataprovider",
+				"application\\admin\\controller\\Chartdataprovider.php"
+			],
+			[
+				"codege",
+				"application\\admin\\controller\\Codegen.php"
+			],
+			[
+				"Amcharts.php",
+				"application\\admin\\controller\\Amcharts.php"
+			],
+			[
+				"dashboard.dev",
+				"static\\plugs\\metronic\\pages\\scripts\\dashboard.dev.js"
+			],
+			[
+				"metronic.chart",
+				"application\\admin\\view\\metronic.chart.html"
+			],
+			[
+				"createtable",
+				"application\\admin\\view\\codegen.createtable.html"
+			],
+			[
+				"venuesh5detail",
+				"application\\h5\\view\\venues.h5detail.html"
+			],
+			[
+				"example.css",
+				"static\\plugs\\weui\\css\\example.css"
+			],
+			[
+				"equipmenth5detail.",
+				"application\\h5\\view\\equipment.h5detail.html"
+			],
+			[
+				"activity.h5detail",
+				"application\\h5\\view\\activity.h5detail.html"
+			],
+			[
+				"clubh5detail",
+				"application\\h5\\view\\club.h5detail.html"
+			],
+			[
+				"activity.h5",
+				"application\\h5\\view\\activity.h5.html"
+			],
+			[
+				"venues.h5",
+				"application\\h5\\view\\venues.h5.html"
+			],
+			[
+				"equ",
+				"application\\h5\\controller\\Equipment.php"
+			],
+			[
+				"equipment.h5",
+				"application\\h5\\view\\equipment.h5.html"
+			],
+			[
+				"h5form.js",
+				"static\\plugs\\mui\\js\\h5form.js"
+			],
+			[
+				"muiutil",
+				"static\\plugs\\mui\\js\\muiutil.js"
+			],
+			[
+				"dict.php",
+				"application\\admin\\controller\\Dict.php"
+			],
+			[
+				"services.php",
+				"application\\h5\\controller\\Services.php"
+			],
+			[
+				"service",
+				"application\\h5\\view\\services.h5form.html"
+			],
+			[
+				"FileSaver.js",
+				"static\\plugs\\filesave\\FileSaver.min.js"
+			],
+			[
+				"tableconfig",
+				"application\\admin\\view\\codegen.tableconfig.html"
+			],
+			[
+				"common.js",
+				"static\\jscommon.js"
+			],
+			[
+				"codeedit",
+				"application\\admin\\view\\codeeditor.editor.html"
+			],
+			[
+				"codeeditor.php",
+				"application\\admin\\controller\\Codeeditor.php"
+			],
+			[
+				"purchasematerial.form",
+				"application\\erp\\view\\purchasematerial.form.html"
+			],
+			[
+				"tag html.php",
+				"thinkphp\\library\\think\\template\\taglib\\Html.php"
+			],
+			[
+				"services.",
+				"application\\h5\\view\\services.h5form.html"
+			],
+			[
+				"customer.index",
+				"application\\erp\\view\\customer.index.html"
+			],
+			[
+				"ba",
+				"extend\\controller\\BasicAdmin.php"
+			],
+			[
+				"admin/configindex",
+				"application\\admin\\view\\config.index.html"
+			],
+			[
+				"plug.js",
+				"static\\admin\\plugs.js"
+			],
+			[
+				"abcd.form",
+				"application\\admin\\view\\abcd.form.html"
+			],
+			[
+				"tableconfig.",
+				"application\\admin\\view\\codegen.tableconfig.html"
+			],
+			[
+				"taglib html.p",
+				"thinkphp\\library\\think\\template\\taglib\\Html.php"
+			],
+			[
+				"quotation.form",
+				"application\\erp\\view\\quotation.form.html"
+			],
+			[
+				"customer.php",
+				"application\\erp\\controller\\Customer.php"
+			],
+			[
+				"metronic.main",
+				"application\\extra\\view\\metronic.main.html"
+			],
+			[
+				"metronicchart",
+				"application\\admin\\view\\metronic.chart.html"
+			],
+			[
+				"customer index",
+				"application\\admin\\view\\customer.index.html"
+			],
+			[
+				"car.index",
+				"application\\erp\\view\\car.index.html"
+			],
+			[
+				"abcd.ind",
+				"application\\admin\\view\\abcd.index.html"
+			],
+			[
+				"top.html",
+				"application\\extra\\view\\admin.main.top.html"
+			],
+			[
+				"product",
+				"application\\erp\\controller\\Products.php"
+			],
+			[
+				"StringService",
+				"extend\\service\\StringService.php"
+			],
+			[
+				"index.php",
+				"application\\index\\controller\\Index.php"
+			],
+			[
+				"rou",
+				"application\\route.php"
+			],
+			[
+				"metronic chart",
+				"application\\admin\\view\\metronic.chart.html"
+			],
+			[
+				"",
+				"b2ke.sublime-project"
+			],
+			[
+				"echartsx",
+				"application\\admin\\view\\echartsx.index.html"
+			],
+			[
+				"metronic/global/scripts/app.js",
+				"static\\plugs\\metronic\\global\\scripts\\app.js"
+			],
+			[
+				"dashboard.js",
+				"static\\plugs\\metronic\\pages\\scripts\\dashboard.js"
+			],
+			[
+				"metronic.chart.html",
+				"application\\admin\\view\\metronic.chart.html"
+			],
+			[
+				"metronic.php",
+				"application\\admin\\controller\\Metronic.php"
+			],
+			[
+				"metronicindex",
+				"application\\admin\\view\\metronic.index.html"
+			],
+			[
+				"bootstrap-extend.min.css",
+				"static\\plugs\\xeui\\css\\bootstrap-extend.min.css"
+			],
+			[
+				"ai.php",
+				"application\\admin\\controller\\Ai.php"
+			],
+			[
+				"abcd.frm",
+				"application\\admin\\view\\abcd.form.html"
+			],
+			[
+				"site.css",
+				"static\\plugs\\remark\\site.css"
+			],
+			[
+				"console.css",
+				"static\\theme\\default\\css\\console.css"
+			],
+			[
+				"index.main",
+				"application\\admin\\view\\index.main.html"
+			],
+			[
+				"codegen.form",
+				"application\\admin\\view\\codegen.form.html"
+			],
+			[
+				"listen.js",
+				"static\\admin\\listen.js"
+			],
+			[
+				"global/plugins/fullcalendar/fullcalendar.min",
+				"static\\plugs\\metronic\\global\\plugins\\fullcalendar\\fullcalendar.min.js"
+			],
+			[
+				"plugs/metronic/global/plugins/flot/jquery.flot.resize.min",
+				"static\\plugs\\metronic\\global\\plugins\\flot\\jquery.flot.resize.min.js"
+			],
+			[
+				"metronic/global/plugins/flot/jquery-jqplot-module-with-plugins-1.0.8",
+				"static\\plugs\\metronic\\global\\plugins\\flot\\jquery-jqplot-module-with-plugins-1.0.8.js"
+			],
+			[
+				"global/plugins/flot/jquery.flot.min",
+				"static\\plugs\\metronic\\global\\plugins\\flot\\jquery.flot.min.js"
+			],
+			[
+				"layouts/layout/scripts/demo",
+				"static\\plugs\\metronic\\layouts\\layout\\scripts\\demo.js"
+			],
+			[
+				"echarts",
+				"static\\plugs\\echarts\\echarts.js"
+			],
+			[
+				"global/plugins/counterup/jquery.waypoints.min",
+				"static\\plugs\\metronic\\global\\plugins\\counterup\\jquery.waypoints.min.js"
+			],
+			[
+				"plugs/metronic/pages/scripts/dashboard.js",
+				"static\\plugs\\metronic\\pages\\scripts\\dashboard.js"
+			],
+			[
+				"plugins/counterup/jquery.waypoints.js",
+				"static\\plugs\\metronic\\global\\plugins\\counterup\\jquery.waypoints.min.js"
+			],
+			[
+				"metronic/pages/scripts/dashboard.js",
+				"static\\plugs\\metronic\\pages\\scripts\\dashboard.js"
+			],
+			[
+				"main.to",
+				"application\\extra\\view\\admin.main.top.html"
+			],
+			[
+				"metr",
+				"application\\admin\\view\\metronic.index.html"
+			],
+			[
+				"codegen.inde",
+				"application\\admin\\view\\codegen.index.html"
+			],
+			[
+				"common.css",
+				"static\\theme\\default\\css\\common.css"
+			],
+			[
+				"erpmerchants.ind",
+				"application\\erp\\view\\erpmerchants.index.html"
+			],
+			[
+				"list",
+				"static\\admin\\listen.js"
+			],
+			[
+				"admincontent",
+				"application\\extra\\view\\admin.content.html"
+			],
+			[
+				"lobipanel.min.css",
+				"static\\plugs\\lobipanel\\css\\lobipanel.min.css"
+			],
+			[
+				"layui.js",
+				"static\\plugs\\layui\\layui.js"
+			],
+			[
+				"alertify.js",
+				"static\\plugs\\xeui\\js\\Plugin\\alertify.js"
+			],
+			[
+				"web-icons.min.css",
+				"static\\plugs\\xeui\\fonts\\web-icons\\web-icons.min.css"
+			],
+			[
+				"codegenindex",
+				"application\\admin\\view\\codegen.index.html"
+			],
+			[
+				"taglib html",
+				"thinkphp\\library\\think\\template\\taglib\\Html.php"
+			],
+			[
+				"create",
+				"vendor\\facebook\\webdriver\\lib\\Exception\\SessionNotCreatedException.php"
+			],
+			[
+				"createtalb",
+				"static\\plugs\\remark\\material\\global\\vendor\\bootstrap-table\\extensions\\group-by\\bootstrap-table-group-by.css"
+			],
+			[
+				"codegen.hp",
+				"application\\admin\\controller\\Codegen.php"
+			],
+			[
+				"indexindex.php",
+				"application\\index\\controller\\Index.php"
+			],
+			[
+				"taghtml.",
+				"thinkphp\\library\\think\\template\\taglib\\Html.php"
+			],
+			[
+				"tag html",
+				"thinkphp\\library\\think\\template\\taglib\\Html.php"
+			],
+			[
+				"runningaccount.index",
+				"application\\erp\\view\\runningaccount.index.html"
+			],
+			[
+				"accountspayment.php",
+				"application\\erp\\controller\\Accountspayment.php"
+			],
+			[
+				"accountspayment",
+				"application\\erp\\view\\accountspayment.index.html"
+			],
+			[
+				"accountsreceipt",
+				"application\\erp\\controller\\Accountsreceipt.php"
+			],
+			[
+				"Paymentsaccounts",
+				"application\\erp\\view\\paymentsaccounts.gridselect.html"
+			],
+			[
+				"codeform",
+				"application\\admin\\view\\codegen.form.html"
+			],
+			[
+				"accountsreceipt.form",
+				"application\\erp\\view\\accountsreceipt.form.html"
+			],
+			[
+				"accountsreceipt.php",
+				"application\\erp\\controller\\Accountsreceipt.php"
+			],
+			[
+				"codeeditor.ed",
+				"application\\admin\\view\\codeeditor.editor.html"
+			],
+			[
+				"codeeditor",
+				"application\\admin\\controller\\Codeeditor.php"
+			],
+			[
+				"ztreefor",
+				"static\\frontend\\default\\js\\ztreeform.js"
+			],
+			[
+				"contacts.form",
+				"application\\erp\\view\\contacts.form.html"
+			],
+			[
+				"importpurchase.form",
+				"application\\erp\\view\\importpurchase.form.html"
+			],
+			[
+				"stocktaking.form",
+				"application\\erp\\view\\stocktaking.form.html"
+			],
+			[
+				"stocktaking",
+				"application\\erp\\controller\\Stocktaking.php"
+			],
+			[
+				"deliver.php",
+				"application\\erp\\controller\\Deliver.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 320.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

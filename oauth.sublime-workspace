@@ -1,0 +1,2811 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Ha",
+				"HandlerCommon::debuge($array);die"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"HandlerCommon",
+				"HandlerCommon::debuge($base);die"
+			],
+			[
+				"Han",
+				"HandlerCommon"
+			],
+			[
+				"json",
+				"json_encode〔function〕"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"exp",
+				"ExportExcel〔function〕"
+			],
+			[
+				"unde",
+				"undefined\t: object Global"
+			],
+			[
+				"replace",
+				"replaceAll\t.replaceAll()"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"conti",
+				"continueFlag"
+			],
+			[
+				"H",
+				"HandlerCommon"
+			],
+			[
+				"service",
+				"servicebtn"
+			],
+			[
+				"imag",
+				"images/"
+			],
+			[
+				"win",
+				"winsize"
+			],
+			[
+				"pl",
+				"plugs"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"fsi",
+				"font-size\tproperty"
+			],
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"cre",
+				"create_date"
+			],
+			[
+				"purchase_s",
+				"purchase_supplier"
+			],
+			[
+				"ar",
+				"artTemplate"
+			],
+			[
+				"plu",
+				"plugs/"
+			],
+			[
+				"bor",
+				"border-bottom\tproperty"
+			],
+			[
+				"border-co",
+				"border-color\tproperty"
+			],
+			[
+				"borr",
+				"border-radius\tproperty"
+			],
+			[
+				"ven",
+				"vendor"
+			],
+			[
+				"debu",
+				"debuge〔function〕"
+			],
+			[
+				"data-",
+				"data-source"
+			],
+			[
+				"deb",
+				"debuge〔function〕"
+			],
+			[
+				"cty",
+				"$ctypemax〔variable〕"
+			],
+			[
+				"add",
+				"addClass〔function〕"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"entri",
+				"entriesname"
+			],
+			[
+				"mart",
+				"margin-bottom\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"ne",
+				"nexttable"
+			],
+			[
+				"cl",
+				"closest"
+			],
+			[
+				"pat",
+				"parents"
+			],
+			[
+				"url",
+				"urldecode"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "application/extra/api_doc.php",
+			"settings":
+			{
+				"buffer_size": 1937,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/siger/handler/HandlerCompany.php",
+			"settings":
+			{
+				"buffer_size": 51648,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/siger/handler/HandlerUserRole.php",
+			"settings":
+			{
+				"buffer_size": 5506,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/siger/handler/HandlerUserPower.php",
+			"settings":
+			{
+				"buffer_size": 6256,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/siger/handler/HandlerBlank.php",
+			"settings":
+			{
+				"buffer_size": 1465,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 211,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/siger/handler/HandlerLogout.php",
+			"settings":
+			{
+				"buffer_size": 225,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "application/siger/handler/HandlerUser.php",
+			"settings":
+			{
+				"buffer_size": 3275,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"insatl",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"org",
+				"Set Syntax: orgmode"
+			],
+			[
+				"orgmo",
+				"Set Syntax: orgmode"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"Open Resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"filede",
+				"FileDiffs: Menu"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"snippets",
+				"BetterSnippetManager: Edit Snippets"
+			],
+			[
+				"snippet edit",
+				"BetterSnippetManager: Edit Snippets"
+			],
+			[
+				"snippet",
+				"BetterSnippetManager: Edit Snippets"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"format",
+				"CodeFormatter: Format as Javascript Syntax"
+			],
+			[
+				"book",
+				"SublimeBookmarks: Goto Next Bookmark"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"bookmark ",
+				"Bookmarks: Clear All"
+			],
+			[
+				"bookmark",
+				"Bookmarks: Toggle"
+			],
+			[
+				"goto",
+				"SublimeBookmarks: Goto Bookmark"
+			],
+			[
+				"add book",
+				"SublimeBookmarks: Add Bookmark"
+			],
+			[
+				"form",
+				"CodeFormatter: Format Code"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"snippet:cons",
+				"Snippet: cons"
+			],
+			[
+				"snippet:",
+				"BetterSnippetManager: Edit Snippets"
+			],
+			[
+				"edit snip",
+				"BetterSnippetManager: Edit Snippets"
+			],
+			[
+				"snippet:hah",
+				"Snippet: haha"
+			],
+			[
+				"snippe",
+				"BetterSnippetManager: Edit Snippets"
+			],
+			[
+				"snippet:test",
+				"Snippet: test"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"snip",
+				"Snippet: test"
+			],
+			[
+				"snipp",
+				"Snippet: test"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"selectcl",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"col",
+				"Color Picker"
+			],
+			[
+				"ma",
+				"Material Theme: Extras"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"gitcom",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"auto",
+				"Toggle AutoSave: current file only"
+			],
+			[
+				"ui",
+				"UI: Select Color Scheme"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 383.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/pro/tp_oauth",
+		"/D/pro/tp_oauth/application",
+		"/D/pro/tp_oauth/application/admin",
+		"/D/pro/tp_oauth/application/admin/controller",
+		"/D/pro/tp_oauth/application/apilib",
+		"/D/pro/tp_oauth/application/demo",
+		"/D/pro/tp_oauth/application/demo/controller",
+		"/D/pro/tp_oauth/application/extra",
+		"/D/pro/tp_oauth/application/siger",
+		"/D/pro/tp_oauth/application/siger/controller",
+		"/D/pro/tp_oauth/application/siger/handler"
+	],
+	"file_history":
+	[
+		"/D/pro/tp_oauth/application/admin/controller/Client.php",
+		"/D/pro/tp_oauth/application/demo/controller/Doc.php",
+		"/D/pro/shebie/Core/Controller/Console/ConsoleMachine.php",
+		"/D/pro/shebie/Core/Controller/Console/ConsolePositionEquipment.php",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.machine.machinelist.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/~ConsoleLayOut.html",
+		"/D/pro/shebie/Core/Controller/Console.php",
+		"/D/pro/shebie/Core/Model/Render.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerMachine.php",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.machine.html",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerStationBaseSetting.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerRoutingInStation.php",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.wip.html",
+		"/D/pro/shebie/Resources/js/common.js",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.seqdetail.html",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerWip.php",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.oqccheckitem.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.stationbasesetting.html",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerSeqDetail.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerRoutingOutStation.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerRoutingEventNo.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerOQCCheckItem.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerPositionEquipment.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerEquipment.php",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.yield.html",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerPackingFullQty.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerPrintLabelFile.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerPrintSetting.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerWOBookingItem.php",
+		"/D/pro/shebie/Core/Table/SqlToExcelTable.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerCommon.php",
+		"/D/pro/shebie/Core/Plug/ToArray.php",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.wobookingitem.html",
+		"/D/pro/shebie/Core/Config/config.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerOQCCheckItem.bak.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerCommon2.php",
+		"/D/pro/shebie/Core/Config/autoload.php",
+		"/D/pro/shebie/Core/Controller/Index.php",
+		"/D/pro/shebie/Core/Model/BasicController.php",
+		"/D/pro/shebie/Core/Config/init.php",
+		"/D/pro/shebie/Core/Controller/App.php",
+		"/D/pro/shebie/Core/Controller/Api.php",
+		"/D/pro/shebie/sftp-config-alt2.json",
+		"/D/pro/shebie/sftp-config.json",
+		"/D/pro/shebie/Core/Language/CN.php",
+		"/D/pro/shebie/Resources/ajaxhtml/PositionEquipmentForm.html",
+		"/D/pro/shebie/Resources/ajaxhtml/RoutingOutStationForm.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.positionequipment.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.routingoutstation.html",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerYield.php",
+		"/D/pro/shebie/Core/Controller/Console/ConsoleSeqDetail.php",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.wipdetail.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.routinginstation.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.packingfullqty.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.printsetting.html",
+		"/D/pro/shebie/Core/Model/BasicTable.php",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.equipment.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.routingeventno.html",
+		"/D/pro/shebie/Core/Model/DataBase.php",
+		"/D/pro/shebie/Resources/ajaxhtml/OQCCheckItemForm.html",
+		"/D/pro/shebie/sftp-config-alt.json",
+		"/D/pro/siger/Core/Config/config.php",
+		"/D/pro/siger/Core/Table/SqlToExcelTable.php",
+		"/D/pro/shebie/Resources/ajaxhtml/RoutingEventNoForm.html",
+		"/C/Users/Administrator/Desktop/frontend-backend-with-login/NetBeansProjects/frontend/login.html",
+		"/C/Users/Administrator/Desktop/frontend-backend-with-login/NetBeansProjects/frontend/test.js",
+		"/C/Users/Administrator/Desktop/frontend-backend-with-login/NetBeansProjects/frontend/home.html",
+		"/C/Users/Administrator/Desktop/springBoot-example-ui-master/springBoot-example-ui-master/index.html",
+		"/C/Users/Administrator/Desktop/seezoon-framework-all-master/seezoon-framework-all-master/src/main/webapp/static/src/admin/pages/index.html",
+		"/C/Users/Administrator/Desktop/seezoon-framework-all-master/seezoon-framework-all-master/src/main/webapp/static/src/admin/pages/login.html",
+		"/C/Users/Administrator/Desktop/seezoon-framework-all-master/seezoon-framework-all-master/src/main/webapp/static/src/admin/js/index.js",
+		"/C/Users/Administrator/Desktop/seezoon-framework-all-master/seezoon-framework-all-master/src/main/webapp/static/src/admin/js/login.js",
+		"/C/Users/Administrator/Desktop/seezoon-framework-all-master/seezoon-framework-all-master/src/main/webapp/static/src/admin/js/lib/sf-base.js",
+		"/D/pro/sigerfront/login.html",
+		"/D/pro/sigerfront/index.html",
+		"/D/pro/shebie/Resources/js/ajax.jq.js",
+		"/D/pro/sigerfront/Resources/js/ajax.jq.js",
+		"/C/Users/Administrator/Desktop/seezoon-framework-all-master/seezoon-framework-all-master/src/main/webapp/static/src/admin/js/lib/sf-utils.js",
+		"/D/pro/shebie/Resources/ajaxhtml/PrintSettingForm.html",
+		"/C/Users/Administrator/Desktop/GDMS-DeviceManagementSystem-master/GDMS-DeviceManagementSystem-master/GDMS/index.html",
+		"/D/pro/shebie/Resources/ajaxhtml/WOBookingItemForm.html",
+		"/D/pro/shebie/Resources/ajaxhtml/CategoryForm.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.category.html",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerCategory.php",
+		"/D/pro/shebie/Core/Controller/Handler.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerDefective.php",
+		"/D/pro/shebie/Resources/js/web/infographic.js",
+		"/D/pro/shebie/Resources/js/web/shine.js",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.defective.html",
+		"/D/pro/shebie/Core/Controller/Console/ConsoleWipDetail.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerWipDetail.php",
+		"/D/pro/shebie/Resources/ajaxhtml/RoutingInStationForm.html",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/Default (Windows).sublime-mousemap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/D/pro/shebie/Core/Controller/Api/ApiCompany.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/DocPHPManualer.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/DocPHPManualer/Default.sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/DocPHPManualer/DocPHPManualer.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Base File.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/PhpNinJaManual/Default (Windows).sublime-keymap",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/PhpNinJaManual/PhpNinJaManual.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Intellitip/intellitip.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/PHP Completions Kit/README.md",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/IntelliDocs/Default (Windows).sublime-keymap",
+		"/D/pro/shebie/shebie.sublime-workspace",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerAcc.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerAppSection.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerEquipmentbak.php",
+		"/D/pro/shebie/.idea/workspace.xml",
+		"/D/pro/shebie/Core/Controller/Api/ApiToolChange.php",
+		"/D/pro/shebie/Core/Controller/Console/ConsoleEquipment.php",
+		"/D/pro/shebie/Core/Controller/Console/ConsoleToolMaintenance.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerBlxCalculation.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerGetEquipment.php",
+		"/D/pro/shebie/Core/Controller/Handler/HandlerToolChangeManagement.php",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.alertsettingcommunication.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.alertsettingcommunication.html.bak",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.alertsettingcommunicationdev.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.environmentsettinghistory.beifen.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.environmentsettinghistory.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.study.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.toolchangemangement.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.toolchangemangement.html.bak",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.toollifeview.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.toolmangement.html",
+		"/D/pro/shebie/Core/View/Theme/iChukConsole/console.toolmangementonlyview.html"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 170.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "application/extra/api_doc.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1937,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								700,
+								700
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										700,
+										701
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										695,
+										696
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1935,
+										1936
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"region.bluish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										14,
+										15
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "application/siger/handler/HandlerCompany.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 51648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								438,
+								438
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										1996,
+										1997
+									]
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										252,
+										253
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 943.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "application/siger/handler/HandlerUserRole.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5506,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										248,
+										249
+									]
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"expand_region_settings": "{\"stack\": [{\"start\": 278, \"end\": 292}, {\"start\": 278, \"end\": 348}], \"hash\": \"e0aaeecd4d44ee819fa4e01c80297b99\"}",
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "application/siger/handler/HandlerUserPower.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6256,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6170,
+								6170
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+									"1":
+									[
+										245,
+										246
+									]
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										6187,
+										6188
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/square_bracket.png",
+										"region.bluish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										4973,
+										4974
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"expand_region_settings": "{\"stack\": [{\"start\": 107, \"end\": 111}], \"hash\": \"c415a6cfe215702c234d5da6b3660036\"}",
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 322.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "application/siger/handler/HandlerBlank.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								311,
+								315
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1464,
+										1465
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										244,
+										245
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 322.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "application/siger/handler/HandlerLogout.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "application/siger/handler/HandlerUser.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								877,
+								877
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3273,
+										3274
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										210,
+										211
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": true,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1012.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 37.0
+	},
+	"input":
+	{
+		"height": 62.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 41.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 109.0
+	},
+	"pinned_build_system": "Packages/User/py35.sublime-build",
+	"project": "oauth.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"api_doc",
+				"application\\extra\\api_doc.php"
+			],
+			[
+				"PositionEquipment",
+				"Resources\\ajaxhtml\\PositionEquipmentForm.html"
+			],
+			[
+				"OQCCheckItem",
+				"Core\\View\\Theme\\iChukConsole\\console.oqccheckitem.html"
+			],
+			[
+				"consoleMachine",
+				"Core\\Controller\\Console\\ConsoleMachine.php"
+			],
+			[
+				"conMachine",
+				"Core\\Controller\\Console\\ConsoleMachine.php"
+			],
+			[
+				"Machine.",
+				"Core\\View\\Theme\\iChukConsole\\console.machine.html"
+			],
+			[
+				"hanMachine",
+				"Core\\Controller\\Handler\\HandlerMachine.php"
+			],
+			[
+				"common.js",
+				"Resources\\js\\common.js"
+			],
+			[
+				"SeqDetail",
+				"Core\\View\\Theme\\iChukConsole\\console.seqdetail.html"
+			],
+			[
+				"handWip",
+				"Core\\Controller\\Handler\\HandlerWip.php"
+			],
+			[
+				"Wip",
+				"Core\\View\\Theme\\iChukConsole\\console.wip.html"
+			],
+			[
+				"HandlerRoutingInStation",
+				"Core\\Controller\\Handler\\HandlerRoutingInStation.php"
+			],
+			[
+				"StationBaseSetting",
+				"Core\\Controller\\Handler\\HandlerStationBaseSetting.php"
+			],
+			[
+				"RoutingInStation",
+				"Core\\Controller\\Handler\\HandlerRoutingInStation.php"
+			],
+			[
+				"RoutingEventNo",
+				"Core\\Controller\\Handler\\HandlerRoutingEventNo.php"
+			],
+			[
+				"RoutingOutStation",
+				"Core\\Controller\\Handler\\HandlerRoutingOutStation.php"
+			],
+			[
+				"Yield",
+				"Core\\View\\Theme\\iChukConsole\\console.yield.html"
+			],
+			[
+				"WOBookingItem",
+				"Core\\Controller\\Handler\\HandlerWOBookingItem.php"
+			],
+			[
+				"PrintSetting",
+				"Core\\Controller\\Handler\\HandlerPrintSetting.php"
+			],
+			[
+				"PrintLabelFile",
+				"Core\\Controller\\Handler\\HandlerPrintLabelFile.php"
+			],
+			[
+				"PackingFullQty",
+				"Core\\Controller\\Handler\\HandlerPackingFullQty.php"
+			],
+			[
+				"hanEquipment",
+				"Core\\Controller\\Handler\\HandlerEquipment.php"
+			],
+			[
+				"conf",
+				"Core\\Config\\config.php"
+			],
+			[
+				"cn.",
+				"Core\\Language\\CN.php"
+			],
+			[
+				"cn",
+				"Core\\Language\\CN.php"
+			],
+			[
+				"comm",
+				"Resources\\js\\common.js"
+			],
+			[
+				"WipDetail",
+				"Core\\View\\Theme\\iChukConsole\\console.wipdetail.html"
+			],
+			[
+				"Equipment.html",
+				"Core\\View\\Theme\\iChukConsole\\console.equipment.html"
+			],
+			[
+				"hanRoutingOutStation",
+				"Core\\Controller\\Handler\\HandlerRoutingOutStation.php"
+			],
+			[
+				"StationBaseSetting.html",
+				"Core\\View\\Theme\\iChukConsole\\console.stationbasesetting.html"
+			],
+			[
+				"ajax.jq.js",
+				"Resources\\js\\ajax.jq.js"
+			],
+			[
+				"category",
+				"Resources\\ajaxhtml\\CategoryForm.html"
+			],
+			[
+				"category.html",
+				"Core\\View\\Theme\\iChukConsole\\console.category.html"
+			],
+			[
+				"handcategory",
+				"Core\\Controller\\Handler\\HandlerCategory.php"
+			],
+			[
+				"handcomm",
+				"Core\\Controller\\Handler\\HandlerCommon.php"
+			],
+			[
+				"Defective",
+				"Core\\Controller\\Handler\\HandlerDefective.php"
+			],
+			[
+				"hanYield",
+				"Core\\Controller\\Handler\\HandlerYield.php"
+			],
+			[
+				"hancomm",
+				"Core\\Controller\\Handler\\HandlerCommon.php"
+			],
+			[
+				"shine",
+				"Resources\\js\\web\\shine.js"
+			],
+			[
+				"infographic",
+				"Resources\\js\\web\\infographic.js"
+			],
+			[
+				"wip.html",
+				"Core\\View\\Theme\\iChukConsole\\console.wip.html"
+			],
+			[
+				"equipment.html",
+				"Core\\View\\Theme\\iChukConsole\\console.equipment.html"
+			],
+			[
+				"PrintSettingfr",
+				"Resources\\ajaxhtml\\PrintSettingForm.html"
+			],
+			[
+				"PrintSetting.html",
+				"Core\\View\\Theme\\iChukConsole\\console.printsetting.html"
+			],
+			[
+				"Wip.",
+				"Core\\View\\Theme\\iChukConsole\\console.wip.html"
+			],
+			[
+				"RoutingInStation.html",
+				"Resources\\ajaxhtml\\RoutingInStationForm.html"
+			],
+			[
+				"RoutingInStationfor",
+				"Resources\\ajaxhtml\\RoutingInStationForm.html"
+			],
+			[
+				"PositionEquipment.html",
+				"Core\\View\\Theme\\iChukConsole\\console.positionequipment.html"
+			],
+			[
+				"commjs",
+				"Resources\\js\\common.js"
+			],
+			[
+				"HANDCOM",
+				"Core\\Controller\\Handler\\HandlerCommon.php"
+			],
+			[
+				"handequ",
+				"Core\\Controller\\Handler\\HandlerEquipment.php"
+			],
+			[
+				"hanequ",
+				"Core\\Controller\\Handler\\HandlerEquipment.php"
+			],
+			[
+				"hand",
+				"Core\\Controller\\Handler\\HandlerCommon.php"
+			],
+			[
+				"hane",
+				"Core\\Controller\\Handler\\HandlerEquipment.php"
+			],
+			[
+				"hanDefective",
+				"Core\\Controller\\Handler\\HandlerDefective.php"
+			],
+			[
+				"hanWipDetail",
+				"Core\\Controller\\Handler\\HandlerWipDetail.php"
+			],
+			[
+				"Defective.",
+				"Core\\View\\Theme\\iChukConsole\\console.defective.html"
+			],
+			[
+				"WipDetail.html",
+				"Core\\View\\Theme\\iChukConsole\\console.wipdetail.html"
+			],
+			[
+				"handwip",
+				"Core\\Controller\\Handler\\HandlerWip.php"
+			],
+			[
+				"Wip.html",
+				"Core\\View\\Theme\\iChukConsole\\console.wip.html"
+			],
+			[
+				"consolDefective",
+				"Core\\Controller\\Console\\ConsoleDefective.php"
+			],
+			[
+				"console.toolparametersettingviewdev.html",
+				"Core\\View\\Theme\\iChukConsole\\console.toolparametersettingviewdev.html"
+			],
+			[
+				"conToolConfig",
+				"Core\\Controller\\Console\\ConsoleToolConfig.php"
+			],
+			[
+				"common.cs",
+				"Resources\\css\\common.css"
+			],
+			[
+				"ToolConfigV2",
+				"Core\\Controller\\Handler\\HandlerToolConfigV2.php"
+			],
+			[
+				"PositionEquipmentf",
+				"Resources\\ajaxhtml\\PositionEquipmentForm.html"
+			],
+			[
+				"HandlerPrintLabelFile",
+				"Core\\Controller\\Handler\\HandlerPrintLabelFile.php"
+			],
+			[
+				"ToolConfig",
+				"Core\\Controller\\Handler\\HandlerToolConfig.php"
+			],
+			[
+				"Equipmentf",
+				"Resources\\ajaxhtml\\EquipmentForm.html"
+			],
+			[
+				"Category",
+				"Core\\View\\Theme\\iChukConsole\\console.category.html"
+			],
+			[
+				"Equipment",
+				"Resources\\ajaxhtml\\EquipmentForm.html"
+			],
+			[
+				"Handler",
+				"Core\\Controller\\Handler.php"
+			],
+			[
+				"h",
+				"Core\\Controller\\Handler\\HandlerCommon.php"
+			],
+			[
+				"han",
+				"Core\\Controller\\Handler\\HandlerCommon.php"
+			],
+			[
+				"hanPrintSetting",
+				"Core\\Controller\\Handler\\HandlerPrintSetting.php"
+			],
+			[
+				"OQCCheckItem.html",
+				"Core\\View\\Theme\\iChukConsole\\console.oqccheckitem.html"
+			],
+			[
+				"OQCCheckItemf",
+				"Resources\\ajaxhtml\\OQCCheckItemForm.html"
+			],
+			[
+				"hanOQCCheckItem",
+				"Core\\Controller\\Handler\\HandlerOQCCheckItem.php"
+			],
+			[
+				"haPrintLabelFile",
+				"Core\\Controller\\Handler\\HandlerPrintLabelFile.php"
+			],
+			[
+				"haPositionEquipment",
+				"Core\\Controller\\Handler\\HandlerPositionEquipment.php"
+			],
+			[
+				"OQCCheckItemform",
+				"Resources\\ajaxhtml\\OQCCheckItemForm.html"
+			],
+			[
+				"HandlerWOBookingItem",
+				"Core\\Controller\\Handler\\HandlerWOBookingItem.php"
+			],
+			[
+				"PrintLabelFilef",
+				"Resources\\ajaxhtml\\PrintLabelFileForm.html"
+			],
+			[
+				"RoutingInStationform",
+				"Resources\\ajaxhtml\\RoutingInStationForm.html"
+			],
+			[
+				"RoutingOutStationform",
+				"Resources\\ajaxhtml\\RoutingOutStationForm.html"
+			],
+			[
+				"Equipmentform",
+				"Resources\\ajaxhtml\\EquipmentForm.html"
+			],
+			[
+				"hanndlcom",
+				"Core\\Controller\\Handler\\HandlerCommon.php"
+			],
+			[
+				"PackingFullQtyfor",
+				"Resources\\ajaxhtml\\PackingFullQtyForm.html"
+			],
+			[
+				"PositionEquipmentform",
+				"Resources\\ajaxhtml\\PositionEquipmentForm.html"
+			],
+			[
+				"ConsoleToolConfig",
+				"Core\\Controller\\Console\\ConsoleToolConfig.php"
+			],
+			[
+				"console.enterprise.user.html",
+				"Core\\View\\Theme\\iChukConsole\\console.enterprise.user.html"
+			],
+			[
+				"consEnterprise",
+				"Core\\Controller\\Console\\ConsoleEnterprise.php"
+			],
+			[
+				"handEnterprise",
+				"Core\\Controller\\Handler\\HandlerEnterprise.php"
+			],
+			[
+				"Equipment.f",
+				"Resources\\ajaxhtml\\EquipmentForm.html"
+			],
+			[
+				"basictable",
+				"Core\\Model\\BasicTable.php"
+			],
+			[
+				"basicta",
+				"Core\\Table\\BasicTable.php"
+			],
+			[
+				"RoutingInStation.",
+				"Core\\View\\Theme\\iChukConsole\\console.routinginstation.html"
+			],
+			[
+				"RoutingOutStation.html",
+				"Core\\View\\Theme\\iChukConsole\\console.routingoutstation.html"
+			],
+			[
+				"RoutingEventNo.html",
+				"Core\\View\\Theme\\iChukConsole\\console.routingeventno.html"
+			],
+			[
+				"HandlerCommon",
+				"Core\\Controller\\Handler\\HandlerCommon.php"
+			],
+			[
+				"Equipment.php",
+				"Core\\Controller\\Handler\\HandlerEquipment.php"
+			],
+			[
+				"PrintLabelFile.html",
+				"Core\\View\\Theme\\iChukConsole\\console.printlabelfile.html"
+			],
+			[
+				"console.log",
+				"Core\\View\\Theme\\iChukConsole\\console.log.html"
+			],
+			[
+				"PrintLabelFileform",
+				"Resources\\ajaxhtml\\PrintLabelFileForm.html"
+			],
+			[
+				"apiupload",
+				"Core\\Controller\\Api\\ApiUpload.php"
+			],
+			[
+				"genco",
+				"static\\plugs\\gencode\\gencode.js"
+			],
+			[
+				"stringutil.js",
+				"static\\plugs\\stringutil\\stringutil.js"
+			],
+			[
+				"tableconfig",
+				"application\\admin\\view\\codegen.tableconfig.html"
+			],
+			[
+				"ai.php",
+				"application\\admin\\controller\\Ai.php"
+			],
+			[
+				"createtable",
+				"application\\admin\\view\\codegen.createtable.html"
+			],
+			[
+				"GENCODE",
+				"static\\plugs\\gencode\\gencode.js"
+			],
+			[
+				"codegen.php",
+				"application\\admin\\controller\\Codegen.php"
+			],
+			[
+				"bootstraptableutil",
+				"static\\frontend\\default\\js\\bootstraptableutil.js"
+			],
+			[
+				"app.js",
+				"static\\admin\\app.js"
+			],
+			[
+				"inventorystatus",
+				"application\\erp\\controller\\Inventorystatus.php"
+			],
+			[
+				"BasicAdmin",
+				"extend\\controller\\BasicAdmin.php"
+			],
+			[
+				"PHPExcel",
+				"vendor\\PHPExcel\\PHPExcel.php"
+			],
+			[
+				"services.php",
+				"application\\h5\\controller\\Services.php"
+			],
+			[
+				"codegen.ph",
+				"application\\admin\\controller\\Codegen.php"
+			],
+			[
+				"createta",
+				"application\\admin\\view\\codegen.createtable.html"
+			],
+			[
+				"abcd.h5.html",
+				"application\\admin\\view\\abcd.h5.html"
+			],
+			[
+				"abcd.index",
+				"application\\admin\\view\\abcd.index.html"
+			],
+			[
+				"comon.php",
+				"application\\common.php"
+			],
+			[
+				"contacts.inde",
+				"application\\admin\\view\\contacts.index.html"
+			],
+			[
+				"console.css",
+				"static\\theme\\default\\css\\console.css"
+			],
+			[
+				"custom.css",
+				"builder\\css\\custom.css"
+			],
+			[
+				"tableconfi",
+				"application\\admin\\view\\codegen.tableconfig.html"
+			],
+			[
+				"calfield",
+				"static\\frontend\\default\\js\\calculatefield.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\pro\\b2ke_com\\b2ke.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 282.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

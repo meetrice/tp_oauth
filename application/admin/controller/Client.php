@@ -18,17 +18,17 @@ class Client extends Controller
     public function index()
     {
         $post_data = array(
-        'client_id' => '20882088',
-        'client_secret' => 'nGk5R2wrnZqQ02bed29rjzax1QWRIu1O',
+        'client_id' => 'siger',
+        'client_secret' => '123456',
         );
 
-        $url='http://oauth.rc3cr.com/demo/auth/accessToken.html';
+        $url='http://backend.rc3cr.com/demo/auth/accessToken.html';
         $res = HttpService::post($url, $post_data);
         if (!$res)  return json(['error'=>1,'msg'=>'授权错误']);
         $retobj = json_decode($res);
         $access_token = $retobj->access_token;
 
-        $dataurl = 'http://oauth.rc3cr.com/demo/user/get.html?page='.$this->request->get('page').'&access_token=' . $access_token;
+        $dataurl = 'http://backend.rc3cr.com/demo/user/get.html?page='.$this->request->get('page').'&access_token=' . $access_token;
         $result = HttpService::post($dataurl);
         return json(json_decode($result));
     }

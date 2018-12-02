@@ -7,11 +7,11 @@ return [
     // 服务器地址
     'hostname'        => 'localhost',
     // 数据库名
-    'database'        => '',
+    'database'        => 'erp2',
     // 用户名
-    'username'        => '',
+    'username'        => 'erp2',
     // 密码
-    'password'        => '',
+    'password'        => 'guestR56Y',
     // 端口
     'hostport'        => '3306',
     // 连接dsn
