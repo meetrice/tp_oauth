@@ -4,17 +4,17 @@ use think\Request;
 use think\Db;
 
 /**
- * Class HandlerCompany
+ * Class HandlerUserPower
  * @title 权限维护
  * @url  http://61.177.28.246:8100/Config
  * @desc  权限维护
  * @version 1.0
- * @readme /doc/md/HandlerCompany.md
+ * @readme 
  */
 class HandlerUserPower
 {
 
-	public $restMethodList = 'getUserPowerList';
+	public $restMethodList = 'getUserPowerList|addUserPower|getUserPower|editUserPower|deleteUserPower';
 
  
     /**
@@ -44,7 +44,115 @@ class HandlerUserPower
     
     }
 
+        /**
+     * @title 添加权限
+     * @desc  添加权限
+     * @url UserPower/addUserPower
+     * @method PUT
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
+     * @example {}
+     */
+    public function addUserPower(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '{"ret":0,"msg":"\u5bc6\u7801\u4e0d\u5339\u914d"}';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
     
+    }
+
+    /**
+     * @title 获得权限详情
+     * @desc  获得权限详情
+     * @url UserPower/getUserPower
+     * @method PUT
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
+     * @return array data 数据
+     * @example {"ret":1,"msg":"\u83b7\u53d6\u6210\u529f","data":[{"id":"151","name":"aaa","description":"aaa","value":"company:list:aaa","status":"1","parent":"2","parentvalue":""}],"total":"1","page":1,"pagesize":1}
+     */
+    public function getUserPower(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '{"ret":0,"msg":"\u5bc6\u7801\u4e0d\u5339\u914d"}';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
+    
+    }
+
+
+    /**
+     * @title 修改权限 保存
+     * @desc  修改权限 保存
+     * @url UserPower/editUserPower
+     * @method PUT
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
+     * @example {}
+     */
+    public function editUserPower(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '{"ret":0,"msg":"\u5bc6\u7801\u4e0d\u5339\u914d"}';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
+    
+    }
+
+    /**
+     * @title 删除权限
+     * @desc  删除权限
+     * @url Company/deleteUserPower
+     * @method PUT
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
+     * @example {}
+     */
+    public function deleteUserPower(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '{"ret":0,"msg":"\u5bc6\u7801\u4e0d\u5339\u914d"}';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
+    
+    }
 
     /**
      * 参数规则
@@ -64,14 +172,29 @@ class HandlerUserPower
                     // 'time'=> ['name' => 'time', 'type' => 'int', 'require' => 'true', 'default' => '', 'desc' => '时间戳', 'range' => '',]
                 ],
                 'getUserPowerList'=>[
-                    'chinesename' => ['name' => 'chinesename', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '名称', 'range' => '',],
-                    'province' => ['name' => 'province', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '省份', 'range' => '',],
-                    'city' => ['name' => 'city', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '城市', 'range' => '',],
-                    'county' => ['name' => 'county', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '国家', 'range' => '',],
-                    'industry_first' => ['name' => 'industry_first', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '', 'range' => '',],
-                    'industry_second' => ['name' => 'industry_second', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '', 'range' => '',],
                     'page' => ['name' => 'page', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '页数', 'range' => '',],
                     'pagesize' => ['name' => 'pagesize', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '每页条数', 'range' => '',],
+                ],'getUserPower'=>[
+                    'id' => ['name' => 'id', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => 'ID', 'range' => '',],
+
+                ],'deleteUserPower'=>[
+                    'id' => ['name' => 'id', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => 'ID', 'range' => '',],
+
+                ],
+                'addUserPower'=>[
+                    'name' => ['name' => 'name', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '名称', 'range' => '',],
+                    'description' => ['name' => 'description', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '描述', 'range' => '',],
+                    'parentvalue' => ['name' => 'parentvalue', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '父权限名称', 'range' => '',],
+                    'value' => ['name' => 'parentvalue', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '权限值', 'range' => '',],
+                    'parent' => ['name' => 'parent', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '父权限id', 'range' => '',],
+                ],
+                'editUserPower'=>[
+                    'id' => ['name' => 'id', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => 'ID', 'range' => '',],
+                    'name' => ['name' => 'name', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '名称', 'range' => '',],
+                    'description' => ['name' => 'description', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '描述', 'range' => '',],
+                    'parentvalue' => ['name' => 'parentvalue', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '父权限名称', 'range' => '',],
+                    'value' => ['name' => 'parentvalue', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '权限值', 'range' => '',],
+                    'parent' => ['name' => 'parent', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '父权限id', 'range' => '',],
                 ]
                 
         ];

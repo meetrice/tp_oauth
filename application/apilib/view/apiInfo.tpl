@@ -140,7 +140,7 @@ a.json-toggle.collapsed:before{    left: -1.3em;}
                     <div style="padding-top: 10px;padding-bottom: 10px;">接口说明: {$vo.desc}</div>
                     <div style="padding-top: 10px;padding-bottom: 10px;">接口地址:</div> 
                     <div class="well">
-                        <span class="label label-success">GET</span> {$classDoc.url}/{$vo.url}
+                        <span class="label label-success">{$vo.method|default=""}</span> {$classDoc.url}/{$vo.url}
                     </div>
                 </div>
                

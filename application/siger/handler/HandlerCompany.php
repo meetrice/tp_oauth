@@ -9,12 +9,12 @@ use think\Db;
  * @url  http://61.177.28.246:8100/Config
  * @desc  企业管理接口
  * @version 1.0
- * @readme /doc/md/HandlerCompany.md
+ * @readme
  */
 class HandlerCompany
 {
 
-	public $restMethodList = 'Getcompanylist|GetCompany|getIndustryFirstLists|getIndustrySecondLists';
+	public $restMethodList = 'Getcompanylist|GetCompany|getIndustryFirstLists|getIndustrySecondLists|AddCompany|GetCompanyItem|EditCompany|DeleteCompany';
 
  
     /**
@@ -104,6 +104,116 @@ class HandlerCompany
     }
 
     /**
+     * @title 添加企业
+     * @desc  添加企业
+     * @url Company/AddCompany
+     * @method POST
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
+     * @return array data 数据
+     * @example {}
+     */
+    public function AddCompany(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '{"ret":0,"msg":"\u5bc6\u7801\u4e0d\u5339\u914d"}';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
+    
+    }
+     /**
+     * @title 获得企业详情
+     * @desc  获得企业详情
+     * @url Company/GetCompanyItem
+     * @method PUT
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
+     * @return array data 数据
+     * @example {"ret":1,"msg":"\u83b7\u53d6\u6210\u529f","data":[{"id":"69","chinesename":"asadf","chinesepinyin":"asdfaa","country":"","province":"\u5929\u6d25\u5e02","city":"\u53bf","county":"\u5b81\u6cb3\u53bf","detailaddress":"asdf","fatherid":"0","brandid":"0","industry_first":"3","industry_second":"12","industry_third":"0","lat":"0.0000000000","lon":"0.0000000000","telephone":"15312083732","website":"","email":"meetrice@qq.com","type":"0","litpic":"","description":"qweqwe","status":"1","mid":"0","companycode":"wqewqe","identification":"\u5df2\u8ba4\u8bc1","contact":"sadf","create_time":"1544062405"}],"total":"1","page":1,"pagesize":10}
+     */
+    public function GetCompanyItem(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
+    
+    }
+ /**
+     * @title 修改企业
+     * @desc  修改企业
+     * @url Company/EditCompany
+     * @method PUT
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
+     * @return array data 数据
+     * @example {}
+     */
+    public function EditCompany(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '{"ret":0,"msg":"\u5bc6\u7801\u4e0d\u5339\u914d"}';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
+    
+    }
+
+
+    /**
+     * @title 删除企业
+     * @desc  删除企业
+     * @url Company/DeleteCompany
+     * @method PUT
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
+     * @example {}
+     */
+    public function DeleteCompany(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '{"ret":0,"msg":"\u5bc6\u7801\u4e0d\u5339\u914d"}';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
+    
+    }
+
+    /**
      * 参数规则
      * @name 字段名称
      * @type 类型
@@ -138,7 +248,55 @@ class HandlerCompany
                 ],
                 'getIndustrySecondLists'=>[
                     'id' => ['name' => 'id', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => 'id', 'range' => '',],
-                ]
+                ],
+                'AddCompany'=>[
+                    'base[chinesename]' => ['name' => 'base[chinesename]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '中文名称', 'range' => '',],
+                    'base[chinesepinyin]' => ['name' => 'base[chinesepinyin]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '中文拼音', 'range' => '',],
+                    'base[province]' => ['name' => 'base[province]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '区域省', 'range' => '',],
+                    'base[city]' => ['name' => 'base[city]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '区域市', 'range' => '',],
+                    'base[county]' => ['name' => 'base[county]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '区域区', 'range' => '',],
+                    'base[detailaddress]' => ['name' => 'base[detailaddress]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '详细地址', 'range' => '',],
+                    'base[telephone]' => ['name' => 'base[telephone]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '电话', 'range' => '',],
+                    'base[website]' => ['name' => 'base[website]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '网址', 'range' => '',],
+                    'base[contact]' => ['name' => 'base[contact]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '联系人', 'range' => '',],
+                    'base[email]' => ['name' => 'base[email]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => 'email', 'range' => '',],
+                    'base[industry_first]' => ['name' => 'base[industry_first]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '行业类别', 'range' => '',],
+                    'base[industry_second]' => ['name' => 'base[industry_second]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '行业类别二级', 'range' => '',],
+                    'base[litpic]' => ['name' => 'base[litpic]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => 'LOGO', 'range' => '',],
+                    'base[description]' => ['name' => 'base[description]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '描述', 'range' => '',],
+                    'base[companycode]' => ['name' => 'base[companycode]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '营业执照', 'range' => '',],
+                    'base[identification]' => ['name' => 'base[identification]#', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '是否认证', 'range' => '',],
+
+
+                ],
+                'GetCompanyItem'=>[
+                    'id' => ['name' => 'id', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => 'id', 'range' => '',],
+                ],
+                
+                'EditCompany'=>[
+                     'id' => ['name' => 'id', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => 'id', 'range' => '',],
+                    'base[chinesename]' => ['name' => 'base[chinesename]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '中文名称', 'range' => '',],
+                    'base[chinesepinyin]' => ['name' => 'base[chinesepinyin]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '中文拼音', 'range' => '',],
+                    'base[province]' => ['name' => 'base[province]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '区域省', 'range' => '',],
+                    'base[city]' => ['name' => 'base[city]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '区域市', 'range' => '',],
+                    'base[county]' => ['name' => 'base[county]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '区域区', 'range' => '',],
+                    'base[detailaddress]' => ['name' => 'base[detailaddress]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '详细地址', 'range' => '',],
+                    'base[telephone]' => ['name' => 'base[telephone]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '电话', 'range' => '',],
+                    'base[website]' => ['name' => 'base[website]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '网址', 'range' => '',],
+                    'base[contact]' => ['name' => 'base[contact]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '联系人', 'range' => '',],
+                    'base[email]' => ['name' => 'base[email]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => 'email', 'range' => '',],
+                    'base[industry_first]' => ['name' => 'base[industry_first]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '行业类别', 'range' => '',],
+                    'base[industry_second]' => ['name' => 'base[industry_second]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '行业类别二级', 'range' => '',],
+                    'base[litpic]' => ['name' => 'base[litpic]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => 'LOGO', 'range' => '',],
+                    'base[description]' => ['name' => 'base[description]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '描述', 'range' => '',],
+                    'base[companycode]' => ['name' => 'base[companycode]', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '营业执照', 'range' => '',],
+                    'base[identification]' => ['name' => 'base[identification]#', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => '是否认证', 'range' => '',],
+
+
+                ],
+               'DeleteCompany'=>[
+                    'id' => ['name' => 'id', 'type' => 'string', 'require' => 'false', 'default' => '', 'desc' => 'id', 'range' => '',],
+                ],
         ];
       
         return $rules;

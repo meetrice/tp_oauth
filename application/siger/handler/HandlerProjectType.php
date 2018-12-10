@@ -14,12 +14,38 @@ use think\Db;
 class HandlerProjectType
 {
 
-	public $restMethodList = 'GetProjectType|GetProjectType2';
+	public $restMethodList = 'getProjectTypeLists|GetProjectType|GetProjectType2|addProjectType|getProjectTypeInfoOne|editProjectType|deleteProjectType';
 
- 
+     /**
+     * @title 获得项目类型列表 [项目管理 - 项目设置 -项目类型设置]
+     * @desc  获得项目类型列表 [项目管理 - 项目设置 -项目类型设置]
+     * @url Project/getProjectTypeLists
+     * @method PUT
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
+     * @return array data 数据
+     * @example {"ret":1,"msg":"列表成功","data":[{"id":"1","name":"项目类型名称","description":"项目类型描述","flag":"标签"}],"total":"1" ,"page": 1,"pagesize": 200}
+     */
+    public function getProjectTypeLists(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '{"ret":0,"msg":"\u5bc6\u7801\u4e0d\u5339\u914d"}';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
+    
+    }
     /**
-     * @title 项目管理 -> 项目类型 下拉列表
-     * @desc  项目管理 -> 项目类型 下拉列表
+     * @title [项目管理 -> 项目类型 下拉列表]
+     * @desc  [项目管理 -> 项目类型 下拉列表]
      * @url ProjectType/GetProjectType
      * @param \think\Request $request
      * @return string msg 错误信息
@@ -45,8 +71,8 @@ class HandlerProjectType
     }
 
         /**
-     * @title 项目管理 -> 添加页面-> 项目类型下拉列表
-     * @desc  项目管理 -> 添加页面-> 项目类型下拉列表
+     * @title [项目管理 -> 添加页面-> 项目类型下拉列表]
+     * @desc  [项目管理 -> 添加页面-> 项目类型下拉列表]
      * @url ProjectType/GetProjectType2
      * @param \think\Request $request
      * @return string msg 错误信息
@@ -71,6 +97,112 @@ class HandlerProjectType
     
     }
 
+
+    /**
+     * @title 添加项目类型[项目管理 - 项目设置 -项目类型设置]
+     * @desc  添加项目类型[项目管理 - 项目设置 -项目类型设置]
+     * @url ProjectType/addProjectType
+     * @method POST
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
+     * @example {}
+     */
+    public function addProjectType(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '{"ret":0,"msg":"\u5bc6\u7801\u4e0d\u5339\u914d"}';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
+    
+    }
+    /**
+     * @title 获得项目类型详情[项目管理 - 项目设置 -项目类型设置]
+     * @desc  获得项目类型详情[项目管理 - 项目设置 -项目类型设置]
+     * @url ProjectType/getProjectTypeInfoOne
+     * @method PUT
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
+     * @return array data 数据
+     * @example {"ret":1,"msg":"\u83b7\u53d6\u6210\u529f","data":{"id":70,"name":"aabbb","description":"aaaa","roleid":"506","flag":"bbb","icon":"","status":1}}
+     */
+    public function getProjectTypeInfoOne(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '{"ret":0,"msg":"\u5bc6\u7801\u4e0d\u5339\u914d"}';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
+    
+    }
+    /**
+     * @title 修改项目类型[项目管理 - 项目设置 -项目类型设置]
+     * @desc  修改项目类型[项目管理 - 项目设置 -项目类型设置]
+     * @url ProjectType/editProjectType
+     * @method PUT
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
+     * @example {}
+     */
+    public function editProjectType(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '{"ret":0,"msg":"\u5bc6\u7801\u4e0d\u5339\u914d"}';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
+    
+    }
+    /**
+     * @title 删除项目类型[项目管理 - 项目设置 -项目类型设置]
+     * @desc  删除项目类型[项目管理 - 项目设置 -项目类型设置]
+     * @url ProjectType/deleteProjectType
+     * @method PUT
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
+     * @example {}
+     */
+    public function deleteProjectType(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '{"ret":0,"msg":"\u5bc6\u7801\u4e0d\u5339\u914d"}';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
+    
+    }    
     /**
      * 参数规则
      * @name 字段名称
@@ -93,7 +225,27 @@ class HandlerProjectType
                 ],
                 'GetProjectType2'=>[
                     
-                ]
+                ],
+                'getProjectTypeLists'=>[
+                    'id' => ['name' => 'id', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '项目id', 'range' => '',],
+                ],               
+                 'getProjectTypeInfoOne'=>[
+                    'id' => ['name' => 'id', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '项目类型id', 'range' => '',],
+                ],                 
+                'deleteProjectType'=>[
+                    'id' => ['name' => 'id', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '项目类型id', 'range' => '',],
+                ],
+                'addProjectType'=>[
+                    'name' => ['name' => 'name', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '项目类型名称', 'range' => '',],
+                    'description' => ['name' => 'description', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '项目类型描述', 'range' => '',],
+                    'flag' => ['name' => 'flag', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '标签', 'range' => '',],
+                ],             
+                'editProjectType'=>[
+                    'id' => ['name' => 'id', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => 'ID', 'range' => '',],
+                    'name' => ['name' => 'name', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '项目类型名称', 'range' => '',],
+                    'description' => ['name' => 'description', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '项目类型描述', 'range' => '',],
+                    'flag' => ['name' => 'flag', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '标签', 'range' => '',],
+                ],
                 
         ];
       

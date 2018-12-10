@@ -251,6 +251,12 @@ class BaseDoc extends Common
                 $data['desc'] = trim(substr($comment, $pos + 5));
                 continue;
             }
+            //接口请求类型
+            $pos = stripos($comment, '@method');
+            if ($pos !== false) {
+                $data['method'] = trim(substr($comment, $pos + 8));
+                continue;
+            }
             //接口说明文档
             $pos = stripos($comment, '@readme');
             if ($pos !== false) {
@@ -300,11 +306,13 @@ class BaseDoc extends Common
                 'name' => $returnCommentArr[1],
                 'type' => $returnCommentArr[0],
                 'desc' => $returnCommentArr[2],
+                // 'method' => $returnCommentArr[2],
             ];
 
         }
         $data['title'] = (isset($data['title'])) ? $data['title'] : '';
         $data['desc'] = (isset($data['desc'])) ? $data['desc'] : '';
+        $data['method'] = (isset($data['method'])) ? $data['method'] : '';
         $data['readme'] = (isset($data['readme'])) ? $data['readme'] : '';
         $data['return'] = (isset($data['return'])) ? $data['return'] : [];
         $data['url'] = (isset($data['url'])) ? $data['url'] : [];

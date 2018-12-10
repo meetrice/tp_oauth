@@ -11,6 +11,9 @@ return [
     '7' => ['name' => '当前用户', 'id' => '7', 'parent' => '1', 'module' => 'siger', 'controller' => 'HandlerProjectUser', 'readme' => ''],
     '8' => ['name' => '项目管理', 'id' => '8', 'parent' => '1', 'module' => 'siger', 'controller' => 'HandlerProject', 'readme' => ''],
     '9' => ['name' => '总等级设置', 'id' => '9', 'parent' => '1', 'module' => 'siger', 'controller' => 'HandlerLevel', 'readme' => ''],
+    '10' => ['name' => '项目等级设置', 'id' => '10', 'parent' => '1', 'module' => 'siger', 'controller' => 'HandlerProjectLevel', 'readme' => ''],
+    '11' => ['name' => '角色管理', 'id' => '11', 'parent' => '1', 'module' => 'siger', 'controller' => 'HandlerUserRole', 'readme' => ''],
+    '12' => ['name' => '权限维护', 'id' => '12', 'parent' => '1', 'module' => 'siger', 'controller' => 'HandlerUserPower', 'readme' => ''],
 
 
     '15' => ['name' => '班次设置', 'id' => '15', 'parent' => '1', 'module' => 'siger', 'controller' => 'HandlerProjectOrganization', 'readme' => ''],
@@ -25,4 +28,6 @@ return [
     '107' => ['name' => 'ToolLife', 'id' => '107', 'parent' => '1', 'module' => 'siger', 'controller' => 'HandlerToolLife', 'readme' => ''],
     '108' => ['name' => 'ToolChangeManagement', 'id' => '108', 'parent' => '1', 'module' => 'siger', 'controller' => 'HandlerToolChangeManagement', 'readme' => ''],
     '109' => ['name' => 'ToolChangeManagementDev', 'id' => '109', 'parent' => '1', 'module' => 'siger', 'controller' => 'HandlerToolChangeManagementDev', 'readme' => ''],
+    '110' => ['name' => 'BlxCalculation', 'id' => '110', 'parent' => '1', 'module' => 'siger', 'controller' => 'HandlerBlxCalculation', 'readme' => ''],
+    '111' => ['name' => 'Machine', 'id' => '111', 'parent' => '1', 'module' => 'siger', 'controller' => 'HandlerMachine', 'readme' => ''],
 ];

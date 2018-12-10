@@ -14,7 +14,7 @@ use think\Db;
 class HandlerLevel
 {
 
-	public $restMethodList = 'getAllLevel|getLevel|getIdLevel';
+	public $restMethodList = 'getAllLevel|getLevel|getIdLevel|addLevel|updateLevel|deleteLevel';
 
     /**
      * @title 项目设置 总等级设置 标签页  获得所有等级列表
@@ -96,7 +96,86 @@ class HandlerLevel
         return json(json_decode($ret), $code);
     
     }
+    /**
+     * @title 添加总等级设置
+     * @desc  添加总等级设置
+     * @url Level/addLevel
+     * @method PUT
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
 
+     * @example {}
+     */
+    public function addLevel(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '{"ret":0,"msg":"\u5bc6\u7801\u4e0d\u5339\u914d"}';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
+    
+    }
+ /**
+     * @title 修改总等级设置
+     * @desc  修改总等级设置
+     * @url Level/addLevel
+     * @method PUT
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
+
+     * @example {}
+     */
+    public function updateLevel(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '{"ret":0,"msg":"\u5bc6\u7801\u4e0d\u5339\u914d"}';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
+    
+    }    
+        /**
+     * @title 删除总等级
+     * @desc  删除总等级
+     * @url Level/deleteLevel
+     * @method PUT
+     * @param \think\Request $request
+     * @return string msg 错误信息
+     * @return int ret 错误号
+     * @example {}
+     */
+    public function deleteLevel(Request $request)
+    {
+
+
+        $token = $request->post('token');
+        if ($token == session('token')) {
+            $ret = '{}';
+            $code = 200;
+        } else {
+            $ret  = '{"ret":0,"msg":"\u5bc6\u7801\u4e0d\u5339\u914d"}';
+            $code = 403;
+        }
+
+        return json(json_decode($ret), $code);
+    
+    }
     /**
      * 参数规则
      * @name 字段名称
@@ -124,7 +203,23 @@ class HandlerLevel
                 'getIdLevel'=>[
                     'id' => ['name' => 'id', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => 'id', 'range' => '',],
                     
-                ]
+                ],
+                'addLevel'=>[
+                    'base[parentid]' => ['name' => 'base[parentid]', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '选择父级', 'range' => '',],
+                    'base[title]' => ['name' => 'base[title]', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '级别名称', 'range' => '',],
+                    'base[description]' => ['name' => 'base[description]', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '级别描述', 'range' => '',],
+                    
+                ],
+                'updateLevel'=>[
+                    'id' => ['name' => 'id', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => 'id', 'range' => '',],
+                     'base[parentid]' => ['name' => 'base[parentid]', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '选择父级', 'range' => '',],
+                    'base[title]' => ['name' => 'base[title]', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '级别名称', 'range' => '',],
+                    'base[description]' => ['name' => 'base[description]', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => '级别描述', 'range' => '',],
+                ],
+                'deleteLevel'=>[
+                    'id' => ['name' => 'id', 'type' => 'int', 'require' => 'false', 'default' => '', 'desc' => 'id', 'range' => '',],
+                    
+                ],
                 
         ];
       
