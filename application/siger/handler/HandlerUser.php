@@ -4,7 +4,7 @@ use think\Request;
 use think\Db;
 /**
  * Class HandlerUser
- * @title 用户接口
+ * @title 管理员管理 & 用户接口
  * @url  http://61.177.28.246:8100/Config
  * @desc  用户接口
  * @version 1.0
